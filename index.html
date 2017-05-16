@@ -1,49 +1,2139 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="theme-font-overpass2 theme-color-blue-yellow" style="width: 100%; height: 100%;">
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background-size="contain">
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 391px; left: 528px; top: 305px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:2.5em">AND YOU</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 522px; height: 522px; left: 6px; top: 70px;">
+						<div class="sl-block-content" style="z-index: 12;" data-inline-svg="false">
+							<img data-natural-width="250" data-natural-height="250" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3689470/angular.svg"
+							/>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 864px; left: 31px; top: 58px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1>the current state of webdev</h1>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 866px; left: 47px; top: 70px;">
+						<div class="sl-block-style" style="z-index: 10;">
+							<div class="sl-block-content" style="z-index: 10; color: rgb(255, 255, 255);">
+								<p style="text-align:left">
+									<span style="font-size:1.6em">As business needs continue to depend on increasingly complex web applications, their technologies need to mature to make them 
+                                    <u>scalable</u>&nbsp;and 
+                                    <u>maintainable</u>.
+                                </span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 866px; left: 47px; top: 420px;">
+						<div class="sl-block-style" style="z-index: 12;">
+							<div class="sl-block-content fragment fade-down" style="z-index: 12; color: rgb(255, 255, 255);" data-fragment-index="0">
+								<p style="text-align:left">
+									<span style="font-size:1.6em">
+                                    <strong>Fortunately, Angular is making that a possibility.</strong>
+                                </span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 104px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<span style="font-size:1.4em">What tooling does Angular offer you right out of the box?</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 330px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 11;" data-fragment-index="2">
+							<p>
+								<strong>The CLI</strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 378px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 12;" data-fragment-index="3">
+							<p>
+								<strong>Community-built snippets and plugins</strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 427px;">
+						<div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="4">
+							<p>
+								<strong>Easy-to-use, responsive UI framework</strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 476px;">
+						<div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="5">
+							<p>
+								<strong>Ahead-of-time compiling</strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 524px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 15;" data-fragment-index="6">
+							<p>
+								<strong>Tools for offline caching </strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 283px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 16;" data-fragment-index="1">
+							<p>
+								<strong>Incredible performance benchmarks</strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 569px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 18;" data-fragment-index="7">
+							<p>
+								<strong>Server-side rendering</strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 613px;">
+						<div class="sl-block-content fragment fade-up" style="z-index: 19;" data-fragment-index="8">
+							<p>
+								<strong>Powerful debugging</strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 829px; left: 66px; top: 244px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 20;" data-fragment-index="0">
+							<p>
+								<strong>Objected-oriented, component based experience</strong>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>why not x framework?</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 159px; left: 60px; top: 459px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<img style="" data-natural-width="2500" data-natural-height="1103" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3694098/ember_Ember-Light.png"
+							/>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 276px; height: 248px; left: 345px; top: 156px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<img style="" data-natural-width="2500" data-natural-height="2246" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3694099/react.svg"
+							/>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 105px; left: 540px; top: 508px;">
+						<div class="sl-block-content" style="z-index: 14;">
+							<img data-natural-width="395" data-natural-height="115" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3694103/ko-logo.png"
+							/>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>Name change</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 210px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<p>
+								<span style="font-size:2.5em">AngularJS =&gt;</span>
+							</p>
+							<p>
+								<strong>
+                                <span style="font-size:3.0em">Angular</span>
+                            </strong>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>what's with the versioning, anyway?</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 240px; height: 210px; left: 79px; top: 210px;">
+						<div class="sl-block-style" style="z-index: 12; transform: rotate(360deg);">
+							<div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(201, 218, 248)" data-shape-stretch="true"
+							 style="z-index: 12;">
+								<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 240 210">
+									<rect width="240" height="210" class="shape-element" fill="rgb(201, 218, 248)"></rect>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 264px; left: 67px; top: 269px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<p>
+								<strong>
+                                <span style="font-size:1.4em">
+                                    <span style="color:#000000">ES5</span>
+                                </span>
+                            </strong>
+							</p>
+							<p>
+								<span style="color:#000000">(circa 2009)</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 240px; height: 210px; left: 387px; top: 211px;">
+						<div class="sl-block-style" style="z-index: 14; transform: rotate(360deg);">
+							<div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(164, 194, 244)" data-shape-stretch="true"
+							 style="z-index: 14;">
+								<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 240 210">
+									<rect width="240" height="210" class="shape-element" fill="rgb(164, 194, 244)"></rect>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 264px; left: 375px; top: 270px;">
+						<div class="sl-block-content" style="z-index: 15;">
+							<p>
+								<strong>
+                                <span style="font-size:1.4em">
+                                    <span style="color:#000000">ES6/2015</span>
+                                </span>
+                            </strong>
+							</p>
+							<p>
+								<font color="#000000">arrow syntax, classes, modules</font>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 240px; height: 210px; left: 699px; top: 210px;">
+						<div class="sl-block-style" style="z-index: 16; transform: rotate(360deg);">
+							<div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(109, 158, 235)" data-shape-stretch="true"
+							 style="z-index: 16;">
+								<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 240 210">
+									<rect width="240" height="210" class="shape-element" fill="rgb(109, 158, 235)"></rect>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 264px; left: 687px; top: 269px;">
+						<div class="sl-block-content" style="z-index: 17;">
+							<p>
+								<span style="color:#000000">
+                                <span style="font-size:39.2px">
+                                    <strong>TypeScript</strong>
+                                </span>
+								</span>
+							</p>
+							<p>
+								<span style="color:#000000">Types</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 490px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 18;" data-fragment-index="0">
+							<p>
+								<span style="font-size:1.2em">Angular now uses 
+                                <em>semantic versioning</em>
+                            </span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 542px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 19;" data-fragment-index="1">
+							<p>
+								<span style="font-size:1.8em">major.minor.patch</span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 864px; left: 30px; top: 58px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1>tools you should use</h1>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>demo time!</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 210px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<ul>
+								<li>The CLI</li>
+								<li>Visual Studio Code</li>
+								<li>John Papa Snippets</li>
+								<li>Augury</li>
+								<li>Nba.com</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 376px; left: 0px; top: 140px;">
+						<div class="sl-block-style" style="z-index: 11; transform: rotate(360deg);">
+							<div class="sl-block-content" style="z-index: 11; color: rgb(255, 255, 255);">
+								<p style="text-align:left">
+									<span style="font-size:44.8px">Don't try to bootstrap your project manually.</span>
+								</p>
+								<p style="text-align:left">&nbsp;</p>
+								<p style="text-align:left">
+									<span style="font-size:44.8px">Don't eject the webpack file if you don't have to.</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 579px; height: 542px; left: 381px; top: 88px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<img style="" data-natural-width="1008" data-natural-height="943" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3750511/pasted-from-clipboard.png"
+							/>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 220px; height: 220px; left: 671px; top: 270px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 13;" data-fragment-index="0">
+							<img data-natural-width="640" data-natural-height="640" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3750516/pasted-from-clipboard.png"
+							/>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 864px; left: 30px; top: 58px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1>Component architecture</h1>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 216px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<span style="font-size:1.8em">Components have a 
+                                <strong>hierarchal</strong> relationship in Angular, and data flow is 
+                                <strong>unidirectional</strong> (top to bottom).
+                            </span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 969px; height: 706px; left: -9px; top: -6px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<img data-natural-width="1086" data-natural-height="791" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3694410/Screen_Shot_2017-04-11_at_1.17.08_PM.png"
+							/>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 104px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:39.2px">Architectural Style #1</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 943px; left: 9px; top: 152px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<p>
+								<span style="font-size:1.6em">
+                                <strong>Decision (smart) and Presenter (dumb)</strong>
+                            </span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 500px; height: 377px; left: 0px; top: 238px;">
+						<div class="sl-block-style" style="z-index: 13;">
+							<div class="sl-block-content" style="z-index: 13;" data-highlight-theme="zenburn">
+								<pre class="javascript">
+                                <code>@Component({
+    selector: 'conference-rooms-list',
+    template: `
+        &lt;conference-room *ngFor="let room in rooms"
+            [room]="room"
+            (bookClick)="bookRoom($event)"&gt;
+        &lt;/conference-room&gt;
+    `
+})
+export class ConferenceRoomsList {
+    
+    constructor(private _roomsService: RoomsService) { }
+
+    getRooms() { ...... }
+    bookRoom(id: number) { ......... }
+    ////// etc ///////
+
+}</code></pre>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 480px; height: 377px; left: 480px; top: 238px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 14;">
+							<pre class="javascript">
+                            <code>@Component({
+    selector: 'conference-room',
+    template: `
+        &lt;span&gt;Name: {{room.name}}&lt;/span&gt;
+        &lt;button (click)="bookMe()"&gt;Book&lt;/button&gt;
+    `
+})
+export class ConferenceRoom {
+    
+    @Input()
+    public room: RoomModel;
+    
+    @Output()
+    public bookClick = new EventEmitter&lt;number&gt;();
+
+    constructor() { }
+
+    bookMe() {
+        this.bookClick.emit(this.room.id);
+    }
+
+}</code></pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 104px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<span style="font-size:1.4em">But what happens when the component tree gets complex?</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 513px; height: 146px; left: 47px; top: 290px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 11;">
+							<pre class="javascript">
+                            <code>@Component({
+    selector: 'conference-room',
+    template: `
+        &lt;span&gt;Name: {{room.name}}&lt;/span&gt;
+        &lt;button (click)="bookMe()"&gt;Book&lt;/button&gt;
+    `
+})</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 385px; height: 18px; left: 120px; top: 369px;">
+						<div class="sl-block-style" style="z-index: 13; opacity: 0.3;">
+							<div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgb(255, 255, 255)" data-shape-stretch="true"
+							 style="z-index: 13;">
+								<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 385 18">
+									<rect width="385" height="18" class="shape-element" fill="rgb(255, 255, 255)"></rect>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 601px; height: 146px; left: 312px; top: 484px;">
+						<div class="sl-block-content fragment fade-down" data-highlight-theme="zenburn" style="z-index: 14;" data-fragment-index="0">
+							<pre class="javascript">
+                            <code>@Component({
+    selector: 'conference-room',
+    template: `
+        &lt;span&gt;Name: {{room.name}}&lt;/span&gt;
+        &lt;book-component (bookRoom)="bookMe()"&gt;&lt;/book-component&gt;
+    `
+})</code></pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 960px; left: 0px; top: 129px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<span style="font-size:39.2px">Lots of redundant data binding/emits</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 210px;">
+						<div class="sl-block-content" style="z-index: 11; background-color: rgb(60, 120, 216);">
+							<p>
+								<span style="font-size:44.8px">Conference Room List</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 350px;">
+						<div class="sl-block-content" style="z-index: 12; background-color: rgb(109, 158, 235);">
+							<p>
+								<span style="font-size:44.8px">Conference Room</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 640px; left: 160px; top: 490px;">
+						<div class="sl-block-content" style="z-index: 13; background-color: rgb(164, 194, 244);">
+							<p>
+								<span style="font-size:44.8px">Book Room</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 400px; top: 280px;">
+						<div class="sl-block-content" data-line-x1="200" data-line-y1="90" data-line-x2="200" data-line-y2="30" data-line-color="#93c47d"
+						 data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 14;" data-line-width="10px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="1" height="60" viewBox="200 30 1 60">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="200" y1="83" x2="200" y2="30"></line>
+								<line stroke="#93c47d" stroke-width="10" x1="200" y1="83" x2="200" y2="30"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#93c47d" stroke-width="10" transform="translate(200,83) rotate(0)" d="M -22.5 -22.5 L 0 0 L 22.5 -22.5"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 400px; top: 420px;">
+						<div class="sl-block-content" data-line-x1="200" data-line-y1="90" data-line-x2="200" data-line-y2="30" data-line-color="#93c47d"
+						 data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 15;" data-line-width="10px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="1" height="60" viewBox="200 30 1 60">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="200" y1="83" x2="200" y2="30"></line>
+								<line stroke="#93c47d" stroke-width="10" x1="200" y1="83" x2="200" y2="30"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#93c47d" stroke-width="10" transform="translate(200,83) rotate(0)" d="M -22.5 -22.5 L 0 0 L 22.5 -22.5"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 560px; top: 280px;">
+						<div class="sl-block-content" data-line-x1="200" data-line-y1="90" data-line-x2="200" data-line-y2="30" data-line-color="#e06666"
+						 data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 16;" data-line-width="10px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="1" height="60" viewBox="200 30 1 60">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="200" y1="90" x2="200" y2="38"></line>
+								<line stroke="#e06666" stroke-width="10" x1="200" y1="90" x2="200" y2="38"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#e06666" stroke-width="10" transform="translate(200,38) rotate(0)" d="M 22.5 22.5 L 0 0 L -22.5 22.5"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 560px; top: 420px;">
+						<div class="sl-block-content" data-line-x1="200" data-line-y1="90" data-line-x2="200" data-line-y2="30" data-line-color="#e06666"
+						 data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 18;" data-line-width="10px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="1" height="60" viewBox="200 30 1 60">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="200" y1="90" x2="200" y2="38"></line>
+								<line stroke="#e06666" stroke-width="10" x1="200" y1="90" x2="200" y2="38"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#e06666" stroke-width="10" transform="translate(200,38) rotate(0)" d="M 22.5 22.5 L 0 0 L -22.5 22.5"></path>
+							</svg>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 844px; left: 74px; top: 108px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:39.2px">Architectural Style #2</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 844px; left: 74px; top: 158px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<p>
+								<span style="font-size:1.6em">
+                                <strong>Service Singletons</strong>
+                            </span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="width: 500px; height: 225px; left: 246px; top: 245px;">
+						<div class="sl-block-style" style="z-index: 13;">
+							<div class="sl-block-content" style="z-index: 13;" data-highlight-theme="zenburn">
+								<pre class="javascript">
+                                <code>@Injectable()
+class ConferenceRoomService {
+
+    public rooms: RoomModel[] = [];
+
+    constructor(private _http: Http) { }
+
+
+    refreshRooms() { ....... }
+    updateRoomsToServer() { ....... }     
+}</code></pre>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 200px; left: 133px; top: 542px;">
+						<div class="sl-block-content" style="z-index: 14; background-color: rgb(109, 158, 235);">
+							<p>Component 1</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 200px; left: 401px; top: 542px;">
+						<div class="sl-block-content" style="z-index: 15; background-color: rgb(147, 196, 125);">
+							<p>Component 2</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 200px; left: 668px; top: 542px;">
+						<div class="sl-block-content" style="z-index: 16; background-color: rgb(224, 102, 102);">
+							<p>Component 3</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 259px; top: 483px;">
+						<div class="sl-block-content" data-line-x1="0" data-line-y1="200" data-line-x2="61" data-line-y2="149" data-line-color="#ffffff"
+						 data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 17;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="61" height="51" viewBox="0 149 61 51">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="3.5" y1="198.5" x2="61.5" y2="149.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="3.5" y1="198.5" x2="61.5" y2="149.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(3,198) rotate(50.102)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 496px; top: 480px;">
+						<div class="sl-block-content" data-line-x1="61" data-line-y1="206" data-line-x2="61" data-line-y2="149" data-line-color="#ffffff"
+						 data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 18;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="1" height="57" viewBox="61 149 1 57">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="61.5" y1="202.5" x2="61.5" y2="149.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="61.5" y1="202.5" x2="61.5" y2="149.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(61,202) rotate(0)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 680px; top: 480px;">
+						<div class="sl-block-content" data-line-x1="115" data-line-y1="203" data-line-x2="61" data-line-y2="149" data-line-color="#ffffff"
+						 data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 19;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="54" height="54" viewBox="61 149 54 54">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="112.5" y1="200.5" x2="61.5" y2="149.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="112.5" y1="200.5" x2="61.5" y2="149.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(112,200) rotate(-45)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 630px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 20;" data-fragment-index="0">
+							<p>
+								<span style="font-size:1.2em">But how are other components going to get the updates?</span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 844px; left: 74px; top: 108px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<span style="font-size:39.2px">Architectural Style #3</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 844px; left: 74px; top: 158px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:1.6em">
+                                <strong>Service Singletons w/ Observables</strong>
+                            </span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="width: 500px; height: 225px; left: 246px; top: 245px;">
+						<div class="sl-block-style" style="z-index: 12;">
+							<div class="sl-block-content" style="z-index: 12;" data-highlight-theme="zenburn">
+								<pre class="javascript">
+                                <code>@Injectable()
+class ConferenceRoomService {
+
+    private _rooms: RoomModel[] = [];
+    public roomsStream$ = new Subject&lt;RoomModel&gt;();
+
+    constructor(private _http: Http) { }
+
+    refreshRooms() {
+        .... http call ....
+        this.roomsStream$.next(this._rooms);
+    }    
+}</code></pre>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 200px; left: 133px; top: 542px;">
+						<div class="sl-block-content" style="z-index: 13; background-color: rgb(109, 158, 235);">
+							<p>Component 1</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 200px; left: 400px; top: 542px;">
+						<div class="sl-block-content" style="z-index: 14; background-color: rgb(147, 196, 125);">
+							<p>Component 2</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 200px; left: 668px; top: 542px;">
+						<div class="sl-block-content" style="z-index: 15; background-color: rgb(224, 102, 102);">
+							<p>Component 3</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 259px; top: 483px;">
+						<div class="sl-block-content" data-line-x1="0" data-line-y1="200" data-line-x2="61" data-line-y2="149" data-line-color="#ffffff"
+						 data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 16;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="61" height="51" viewBox="0 149 61 51">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="3.5" y1="198.5" x2="61.5" y2="149.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="3.5" y1="198.5" x2="61.5" y2="149.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(3,198) rotate(50.102)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 496px; top: 480px;">
+						<div class="sl-block-content" data-line-x1="61" data-line-y1="206" data-line-x2="61" data-line-y2="149" data-line-color="#ffffff"
+						 data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 17;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="1" height="57" viewBox="61 149 1 57">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="61.5" y1="202.5" x2="61.5" y2="149.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="61.5" y1="202.5" x2="61.5" y2="149.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(61,202) rotate(0)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; left: 680px; top: 480px;">
+						<div class="sl-block-content" data-line-x1="115" data-line-y1="203" data-line-x2="61" data-line-y2="149" data-line-color="#ffffff"
+						 data-line-start-type="line-arrow" data-line-end-type="none" style="z-index: 18;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="54" height="54" viewBox="61 149 54 54">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="112.5" y1="200.5" x2="61.5" y2="149.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="112.5" y1="200.5" x2="61.5" y2="149.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(112,200) rotate(-45)" d="M -11.25 -11.25 L 0 0 L 11.25 -11.25"></path>
+							</svg>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 842px; left: 38px; top: 62px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 11;" data-fragment-index="0">
+							<p>
+								<span style="font-size:1.4em">We now have a singleton service that can broadcast updates of the model to subscribers!</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 620px; left: 170px; top: 210px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 12;" data-fragment-index="1">
+							<p>
+								<span style="font-size:39.2px">... but it might be a pain to inject a service for every model in different components that need it</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 235px; left: 123px; top: 420px;">
+						<div class="sl-block-style" style="z-index: 13;">
+							<div class="sl-block-content fragment fade-down" style="z-index: 13; color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0.15);"
+							 data-fragment-index="2">
+								<p>RoomService</p>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 235px; left: 123px; top: 513px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 14; color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0.15);"
+						 data-fragment-index="3">
+							<p>EventService</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 235px; left: 123px; top: 594px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 15; color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0.14902);"
+						 data-fragment-index="4">
+							<p>UserService</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 177px; height: 221px; left: 543px; top: 421px;">
+						<div class="sl-block-content fragment" style="z-index: 16;" data-fragment-index="5">
+							<img data-natural-width="256" data-natural-height="320" style="" data-src="https://68.media.tumblr.com/5e4fb6c51648179bc2b5ec49ebfd00bf/tumblr_nqg1748nzW1urtbf3o2_r1_400.gif"
+							/>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 104px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<span style="font-size:39.2px">Architectural Style #4</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 943px; left: 9px; top: 154px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:1.6em">
+                                <strong>Redux with @ngrx</strong>
+                            </span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 190px; left: 400px; top: 327px;">
+						<div class="sl-block-content" style="z-index: 12; background-color: rgb(74, 134, 232);">
+							<p>&nbsp;</p>
+							<p>
+								<span style="font-size:44.8px">Store</span>
+							</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 190px; left: 58px; top: 327px;">
+						<div class="sl-block-content" style="z-index: 13; background-color: rgb(255, 0, 0);">
+							<p>&nbsp;</p>
+							<p>
+								<span style="font-size:44.8px">Action</span>
+							</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 264px; top: 408px;">
+						<div class="sl-block-content" data-line-x1="-31" data-line-y1="0" data-line-x2="83" data-line-y2="0" data-line-color="#ffffff"
+						 data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 14;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="114" height="1" viewBox="-31 0 114 1">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-30.5" y1="0.5" x2="79.5" y2="0.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="-30.5" y1="0.5" x2="79.5" y2="0.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(79,0) rotate(90)" d="M 11.25 11.25 L 0 0 L -11.25 11.25"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 94px; left: 274px; top: 350px;">
+						<div class="sl-block-content" style="z-index: 15; color: rgb(0, 255, 0);">
+							<pre>
+                            <span style="font-size:0.5em">bookRoom()</span>
+                        </pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 606px; top: 314px;">
+						<div class="sl-block-content" data-line-x1="-31" data-line-y1="0" data-line-x2="117" data-line-y2="-85" data-line-color="#ffffff"
+						 data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 16;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="148" height="85" viewBox="-31 -85 148 85">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-30.5" y1="0.5" x2="114.5" y2="-82.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="-30.5" y1="0.5" x2="114.5" y2="-82.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(114,-83) rotate(60.13)" d="M 11.25 11.25 L 0 0 L -11.25 11.25"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 606px; top: 419px;">
+						<div class="sl-block-content" data-line-x1="-31" data-line-y1="0" data-line-x2="117" data-line-y2="0" data-line-color="#ffffff"
+						 data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 17;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="148" height="1" viewBox="-31 0 148 1">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-30.5" y1="0.5" x2="113.5" y2="0.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="-30.5" y1="0.5" x2="113.5" y2="0.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(113,0) rotate(90)" d="M 11.25 11.25 L 0 0 L -11.25 11.25"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 612px; top: 446px;">
+						<div class="sl-block-content" data-line-x1="-31" data-line-y1="0" data-line-x2="111" data-line-y2="72" data-line-color="#ffffff"
+						 data-line-start-type="none" data-line-end-type="line-arrow" style="z-index: 18;" data-line-width="5px">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="142" height="72" viewBox="-31 0 142 72">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="-30.5" y1="0.5" x2="108.5" y2="70.5"></line>
+								<line stroke="#ffffff" stroke-width="5" x1="-30.5" y1="0.5" x2="108.5" y2="70.5"></line>
+								<path style="fill: rgba(0,0,0,0);" stroke="#ffffff" stroke-width="5" transform="translate(108,70) rotate(116.887)" d="M 11.25 11.25 L 0 0 L -11.25 11.25"></path>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 190px; left: 770px; top: 296px;">
+						<div class="sl-block-content" style="z-index: 19; background-color: rgb(147, 196, 125);">
+							<p>
+								<span style="font-size:0.9em">Component 1</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 190px; left: 770px; top: 402px;">
+						<div class="sl-block-content" style="z-index: 20; background-color: rgb(147, 196, 125);">
+							<p>
+								<span style="font-size:0.9em">Component 2</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 190px; left: 770px; top: 500px;">
+						<div class="sl-block-content" style="z-index: 21; background-color: rgb(147, 196, 125);">
+							<p>
+								<span style="font-size:0.9em">Component 3</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 94px; left: 697px; top: 350px;">
+						<div class="sl-block-content" style="z-index: 22; color: rgb(0, 255, 0);">
+							<pre>
+                            <span style="font-size:0.5em">subscribe()</span>
+                        </pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 94px; left: 697px; top: 444px;">
+						<div class="sl-block-content" style="z-index: 24; color: rgb(0, 255, 0);">
+							<pre>
+                            <span style="font-size:0.5em">subscribe()</span>
+                        </pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 666px; height: 416px; left: 147px; top: 112px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<img data-natural-width="800" data-natural-height="500" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3694885/redux-article-3-03.svg"
+							/>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 517px; left: 7px; top: 70px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:5.0em">tl;dr</span>
+							</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 368px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<p>
+								<span style="font-size:2.0em">Start with the simplest approach, then change if needed.</span>
+							</p>
+							<p>&nbsp;</p>
+							<p>(ask us, we're here to help)!</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 864px; left: 30px; top: 58px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1>module vs. module</h1>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 960px; height: 700px; left: 0px; top: 0px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 11;">
+							<pre class="javascript">
+                            <code>import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule, Http, XHRBackend, RequestOptions } from '@angular/http';
+import { environment } from '../environments/environment';
+import { API_CONFIG, GRAPH_API_DI_CONFIG } from './api.config';
+import {
+  AUTH_CONFIG,
+  WMP_OAUTH_CONFIG_DEV,
+  WMP_OAUTH_CONFIG_PROD
+} from './auth.config';
+import { AppRoutingModule } from './app-routing.module';
+import { AuthProvider } from './services/auth-provider.service';
+import { MsGraphHttpService } from './services/ms-graph-http.service';
+import { AuthGuard } from './auth-guard';
+import { AppComponent } from './app/app.component';
+import { LoginComponent } from './login/login.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    LoginComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    AppRoutingModule
+  ],
+...................................
+})</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="line" style="width: auto; height: auto; min-width: 1px; min-height: 1px; left: 380px; top: 250px;">
+						<div class="sl-block-content" data-line-x1="0" data-line-y1="200" data-line-x2="200" data-line-y2="0" data-line-color="#000000"
+						 data-line-start-type="none" data-line-end-type="none" style="z-index: 12;">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid" width="200" height="200" viewBox="0 0 200 200">
+								<line stroke="rgba(0,0,0,0)" stroke-width="15" x1="0" y1="200" x2="200" y2="0"></line>
+								<line stroke="#000000" stroke-width="2" x1="0" y1="200" x2="200" y2="0"></line>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 71px; height: 329px; left: 0px; top: 0px;">
+						<div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 13;"
+						 data-shape-stroke-color="#f60000" data-shape-stroke-width="3">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 71 329">
+								<defs>
+									<clipPath id="shape-mask-7-1494537814806">
+										<rect width="71" height="329"></rect>
+									</clipPath>
+								</defs>
+								<rect width="71" height="329" clip-path="url(#shape-mask-7-1494537814806)" class="shape-element" fill="rgba(0, 0, 0, 0)"
+								 stroke="#f60000" stroke-width="6"></rect>
+							</svg>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="shape" style="min-width: 4px; min-height: 4px; width: 172px; height: 111px; left: 22px; top: 420px;">
+						<div class="sl-block-content" data-shape-type="rect" data-shape-fill-color="rgba(0, 0, 0, 0)" data-shape-stretch="true" style="z-index: 14;"
+						 data-shape-stroke-color="#f60000" data-shape-stroke-width="3">
+							<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 172 111">
+								<defs>
+									<clipPath id="shape-mask-8-1494537814817">
+										<rect width="172" height="111"></rect>
+									</clipPath>
+								</defs>
+								<rect width="172" height="111" clip-path="url(#shape-mask-8-1494537814817)" class="shape-element" fill="rgba(0, 0, 0, 0)"
+								 stroke="#f60000" stroke-width="6"></rect>
+							</svg>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<h2>ES6 modules are simply files</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 296px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<ol>
+								<li>Define a class, interface, constants in a file</li>
+								<li>
+									<em>export</em>&nbsp;them
+								</li>
+								<li>
+									<em>import</em>&nbsp;them in other files
+								</li>
+							</ol>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 801px; left: 37px; top: 70px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 10;" data-fragment-index="0">
+							<p style="text-align:left">
+								<span style="font-size:1.2em">When importing other files you've written, use a 
+                                <u>relative path</u>
+                            </span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 665px; height: 146px; left: 37px; top: 171px;">
+						<div class="sl-block-content fragment fade-down" data-highlight-theme="zenburn" style="z-index: 11;" data-fragment-index="1">
+							<pre class="javascript">
+                            <code>import { ConferenceRoomService } from './conference-room.service';
+import { ConferenceRoom } from '../models/conference.room';
+
+.......
+export class ConferenceRoomComponent {
+    ......... 
+}</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 895px; left: 37px; top: 350px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 12;" dir="ui" data-fragment-index="2">
+							<p style="text-align:left">
+								<span style="font-size:33.6px">When importing from npm libraries, use an 'absolute' path</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 665px; height: 83px; left: 37px; top: 400px;">
+						<div class="sl-block-content fragment fade-down" data-highlight-theme="zenburn" style="z-index: 13;" data-fragment-index="3">
+							<pre class="javascript">
+                            <code>import { Http, Response } from '@angular/http';
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/map';</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 914px; left: 37px; top: 517px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 15; color: rgb(244, 204, 204);" dir="ui" data-fragment-index="4">
+							<p style="text-align:left">
+								<span style="font-size:33.6px">! Don't blow up the size of your app by importing everything:</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 665px; height: 83px; left: 37px; top: 579px;">
+						<div class="sl-block-content fragment fade-down" data-highlight-theme="zenburn" style="z-index: 16;" data-fragment-index="5">
+							<pre class="javascript">
+                            <code>import * from '@angular/core';
+import 'rxjs/Rx';</code></pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 881px; left: 40px; top: 210px; height: auto;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<h2>Angular modules help us break up our application into blocks of functionality</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 220px; left: 366px; top: 334px;">
+						<div class="sl-block-content" style="z-index: 11; background-color: rgb(241, 194, 50);">
+							<p>&nbsp;</p>
+							<p>AppModule</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 220px; left: 80px; top: 499px;">
+						<div class="sl-block-content" style="z-index: 12; background-color: rgb(60, 120, 216);">
+							<p>&nbsp;</p>
+							<p>RoomsModule</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 220px; left: 647px; top: 499px;">
+						<div class="sl-block-content" style="z-index: 13; background-color: rgb(106, 168, 79);" dir="ui">
+							<p>&nbsp;</p>
+							<p>AdminModule</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 220px; left: 366px; top: 499px;">
+						<div class="sl-block-content" style="z-index: 15; background-color: rgb(230, 145, 56);" dir="ui">
+							<p>&nbsp;</p>
+							<p>MeetingsModule</p>
+							<p>&nbsp;</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>module anatomy</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 500px; height: 300px; left: 0px; top: 247px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12;">
+							<pre class="javascript">
+                            <code>@NgModule({
+    declarations: [
+        ConferenceRoomComponent,
+        HighlightDirective,
+        DatePipe
+    ],
+    imports: [
+        CommonModule,
+        BrowserModule,
+        SharedModule
+    ],
+    exports: [HighlightDirective, DatePipe],
+    providers: [ConferenceRoomService]
+})
+export class AppModule { }</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 390px; left: 560px; top: 199px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<ul>
+								<li>We
+									<strong>declare</strong>&nbsp;components, directives, and pipes as members of our module
+								</li>
+								<li>
+									<strong>Export </strong>any declarations that seem useful to other modules
+								</li>
+								<li>
+									<strong>Import </strong>other modules' exported members and service instances
+								</li>
+								<li>
+									<strong>Provide</strong>&nbsp;a service to create a new instance of it
+								</li>
+								<li>Module class itself is blank</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 104px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:1.4em">What happens when you import a module more than once?</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 255px;">
+						<div class="sl-block-content fragment fade-up" style="z-index: 12;" data-fragment-index="0">
+							<p>
+								<span style="font-size:2.0em">Usually, nothing.</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 452px;">
+						<div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="1" dir="ui">
+							<p>
+								<em>
+                                <span style="font-size:39.2px">*this changes with 
+                                    <strong>lazy-loaded</strong>&nbsp;modules.
+                                </span>
+                            </em>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>eager vs. lazy loaded</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 567px; height: 430px; left: 6px; top: 164px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12;">
+							<pre class="javascript">
+                            <code>const appRoutes: Routes = [
+  { path: 'conference-rooms', component: ConferenceRooms },
+  { path: 'login', component: LoginComponent },
+];
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    FormsModule,
+    ConferenceRoomModule,
+    RouterModule.forRoot(appRoutes)
+  ],
+  declarations: [
+    AppComponent,
+    HeroListComponent,
+    CrisisListComponent,
+    LoginComponent
+  ],
+  bootstrap: [ AppComponent ]
+})
+export class AppModule { }
+</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 360px; left: 600px; top: 279px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<p style="text-align:left">
+								<span style="font-size:1.0em">ConferenceRoomModule</span>
+							</p>
+							<p style="text-align:left">
+								<span style="font-size:1.0em">is loaded when the app bootstraps.</span>
+							</p>
+							<p style="text-align:left">&nbsp;</p>
+							<p style="text-align:left">
+								<span style="font-size:1.0em">It's 
+                                <strong>eagerly loaded</strong>.
+                            </span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="code" style="width: 800px; height: 430px; left: 80px; top: 70px;">
+						<div class="sl-block-style" style="z-index: 11;">
+							<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 11;">
+								<pre class="javascript">
+                                <code>const appRoutes: Routes = [
+  { 
+    path: 'conference-rooms',
+    loadChildren: 'app/conference-room/conference-room.module#ConferenceRoomModule',
+  },
+  { path: 'login', component: LoginComponent },
+];
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    FormsModule,
+    RouterModule.forRoot(appRoutes)
+  ],
+  declarations: [
+    AppComponent,
+    HeroListComponent,
+    CrisisListComponent,
+    LoginComponent
+  ],
+  bootstrap: [ AppComponent ]
+})
+export class AppModule { }
+</code></pre>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 560px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<p style="text-align:left">We're no longer importing ConferenceRoomModule.</p>
+							<p style="text-align:left">It's now referenced in a special string in the router's path.</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 640px; left: 160px; top: 129px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<strong>
+                                <span style="font-size:1.4em">What are the implications of that?</span>
+                            </strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 804px; left: 76px; top: 230px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 11;" data-fragment-index="0">
+							<p>
+								<span style="font-size:1.4em">The module is bundled separately by Webpack</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 308px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 12;" dir="ui" data-fragment-index="1">
+							<p>
+								<span style="font-size:39.2px">It will only be loaded when navigated to</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 387px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 14;" dir="ui" data-fragment-index="2">
+							<p>
+								<span style="color:#FFA07A">
+                                <span style="font-size:39.2px">!!! Any services you provide, or modules you import that provide a service, will overwrite anything provided by parent modules</span>
+								</span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 10;" dir="ui">
+							<h2>auth guards</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 140px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 11;" data-fragment-index="0">
+							<p style="text-align:left">
+								<strong>
+                                <span style="font-size:1.4em">CanActivate? &nbsp; </span>
+                            </strong>
+								<span style="font-size:1.4em">Prevents navigation to a route</span>
+							</p>
+							<p style="text-align:left">
+								<span style="font-size:1.4em">​</span>
+								<span style="font-size:1.2em">&nbsp; &nbsp; &nbsp; &nbsp;Common use case: Is the user logged in?</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 280px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 12;" data-fragment-index="1">
+							<p style="text-align:left">
+								<strong>
+                                <span style="font-size:1.4em">CanDeactivate? &nbsp; </span>
+                            </strong>
+								<span style="font-size:1.4em">Prevents leaving a route</span>
+							</p>
+							<p style="text-align:left">
+								<span style="font-size:1.4em">​</span>
+								<span style="font-size:1.2em">&nbsp; &nbsp; &nbsp; &nbsp;Common use case: leaving a form unsaved</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 420px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 13;" data-fragment-index="2">
+							<p style="text-align:left">
+								<strong>
+                                <span style="font-size:1.4em">CanLoad? &nbsp; </span>
+                            </strong>
+								<span style="font-size:1.4em">Should module be sent over wire?</span>
+							</p>
+							<p style="text-align:left">
+								<span style="font-size:1.4em">​</span>
+								<span style="font-size:1.2em">&nbsp; &nbsp; &nbsp; &nbsp;Can use in conjunction with CanActivate</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 560px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 15;" data-fragment-index="3">
+							<p style="text-align:left">
+								<strong>
+                                <span style="font-size:1.4em">Resolve: &nbsp;</span>
+                            </strong>
+								<span style="font-size:1.4em">Before activating, load data</span>
+							</p>
+							<p style="text-align:left">
+								<span style="font-size:1.4em">​</span>
+								<span style="font-size:1.2em">&nbsp; &nbsp; &nbsp; &nbsp;Fetch data from API before activating</span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 864px; left: 30px; top: 58px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1>RxJS &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; the good parts</h1>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 104px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<span style="font-size:39.2px">Why?</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 210px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 16;" data-fragment-index="0">
+							<p>
+								<span style="font-size:1.6em">
+                                <strong>It's generally more efficient</strong>
+                            </span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 500px; height: 468px; left: 0px; top: 107px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 11;">
+							<pre class="javascript">
+                            <code>export class SomeComponent implements OnInit {
+
+    ngOnInit() {
+        if (!this._loginService.isLoggedIn()) {
+            this._router.navigateTo('login');
+        }
+    }
+}
+
+
+
+export class AppComponent implements OnInit {
+
+    ngOnInit() {
+
+        setTimeout(() =&gt; {
+            if (!this._loginService.isLoggedIn()) {
+                this._router.navigateTo('login');
+            }
+        }, 10000);
+    }
+}</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 269px; height: 258px; left: 586px; top: 221px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 12;" data-fragment-index="0">
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 704px; height: 469px; left: 0px; top: 116px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 11;">
+							<pre class="javascript">
+                            <code>export class LoginService {
+
+    ....
+
+    public isLoggedIn$ = Observable.from(loginStatusProducer).share();
+
+    login() { ... }
+    logout() { ... }
+}
+
+
+export class AppComponent implements OnInit {
+
+    ngOnInit() {
+        
+        this._loginService.isLoggedIn$
+            .subscribe(status =&gt; {
+                if (!status) {
+                    this._router.navigateTo('login');
+                }
+            });
+    }    
+}</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 237px; height: 237px; left: 712px; top: 232px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 12;" data-fragment-index="0">
+							<img data-natural-width="640" data-natural-height="640" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3750757/pasted-from-clipboard.png"
+							/>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666"></section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 10;" dir="ui">
+							<h2>big picture</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 214px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:1.4em">
+                                <strong>Observables 'pipe' data from a source to its subscriber(s)</strong>
+                            </span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 379px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<p>
+								<span style="font-size:1.4em">They can transform those values/objects along the way as well</span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>Creating an observable</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 235px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<p style="text-align:left">
+								<span style="font-size:1.4em">
+                                <strong>Observable.of(val)&nbsp; &nbsp; &nbsp;</strong>
+                            </span>
+							</p>
+							<p style="text-align:left">
+								<span style="font-size:1.4em">&nbsp; &nbsp; &nbsp;from a static value</span>
+							</p>
+							<p style="text-align:left">&nbsp;</p>
+							<p style="color:rgb(255, 255, 255); text-align:left">
+								<span style="font-size:1.4em">
+                                <strong>Observable.from(obs | collection)&nbsp; &nbsp; &nbsp;</strong>
+                            </span>
+							</p>
+							<p style="color:rgb(255, 255, 255); text-align:left">
+								<span style="font-size:1.4em">&nbsp; &nbsp; &nbsp;from an iterable collection, another observable, etc.</span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 533px; left: 80px; top: 140px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p style="text-align:left">
+								<span style="font-size:1.4em">These are observables:</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 960px; height: 300px; left: 0px; top: 243px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12; font-size: 200%;">
+							<pre class="javascript">
+                            <code>let obs1 = Observable.of(1, 2, 3);
+let obs2 = this._http
+    .get('http://domain.com/api/profile/43242');
+let obs3 = Observable.from(obs2);</code></pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 140px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:1.4em">So that means I can start getting data, right?</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 960px; height: 300px; left: 0px; top: 210px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12; font-size: 200%;">
+							<pre class="javascript">
+                            <code>let result = this._http
+    .get('http://domain.com/api/profile/43242');
+
+console.log(result);</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 174px; top: 560px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 13;" data-fragment-index="0">
+							<p>
+								<span style="font-size:1.8em">Nope!</span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 140px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:1.4em">
+                                <strong>Observables are "cold" by default</strong>
+                            </span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 960px; height: 300px; left: 0px; top: 210px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12; font-size: 200%;">
+							<pre class="javascript">
+                            <code>this._http
+    .get('http://domain.com/api/profile/43242')
+    .subscribe(result =&gt; console.log(result));</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 395px;">
+						<div class="sl-block-style" style="z-index: 13; transform: rotate(360deg);">
+							<div class="sl-block-content fragment fade-down" style="z-index: 13; color: rgb(244, 204, 204);" data-fragment-index="0">
+								<p>
+									<span style="font-size:1.4em">Call subscribe to make an observable "hot"</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 104px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<strong>
+                                <span style="font-size:39.2px">Every time you call subscribe(),</span>
+                            </strong>
+							</p>
+							<p>
+								<strong>
+                                <span style="font-size:39.2px">the producer gets recreated</span>
+                            </strong>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 723px; height: 300px; left: 119px; top: 245px;">
+						<div class="sl-block-style" style="z-index: 12; transform: rotate(360deg);">
+							<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12;">
+								<pre class="javascript">
+                                <code>// bad code
+
+getProfileData(id: number) {
+    let obs = this._http
+        .get(`http://domain.com/api/profile/${id}`);
+    
+    obs.subscribe(result =&gt; console.log(result));
+
+    return obs;
+}
+
+......
+
+this._profiles.getProfileData()
+    .subscribe(result =&gt; console.log(result));</code></pre>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 587px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<p>The HTTP call is made twice in this example</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 104px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<span style="font-size:1.4em">You can share the same producer for multiple subscriptions:</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 723px; height: 300px; left: 119px; top: 237px;">
+						<div class="sl-block-style" style="z-index: 12; transform: rotate(360deg);">
+							<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12; font-size: 150%;">
+								<pre class="javascript">
+                                <code>let obs = Observable.interval(500).share();
+
+let sub1 
+    = obs.subscribe(result =&gt; console.log(result));
+
+let sub2
+    = obs.subscribe(result =&gt; console.log(result));
+
+</code></pre>
+							</div>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 81px; top: 571px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<p>
+								<span style="font-size:1.4em">The observable immediately becomes "hot" upon calling share()</span>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>subjects</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 157px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<p>
+								<span style="font-size:1.4em">Subjects simply allow you to push values on demand as well as subscribing</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 865px; height: 300px; left: 48px; top: 340px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 13; font-size: 150%;">
+							<pre class="javascript">
+                            <code>let mySubject = new Subject&lt;string&gt;();
+
+let sub = mySubject.subscribe(result =&gt; console.log(result));
+
+mySubject.next("update 1");
+mySubject.next("update 2");
+
+// console prints: 
+// update 1
+// update 2</code></pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 10;" dir="ui">
+							<h2>useful operators</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 480px; left: 0px; top: 140px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p style="text-align:left">&nbsp;</p>
+							<ul>
+								<li>Array-like operators
+
+									<ul>
+										<li>map</li>
+										<li>switchMap</li>
+										<li>flatMap/mergeMap</li>
+										<li>reduce</li>
+									</ul>
+								</li>
+								<li>Browser-based events
+
+									<ul>
+										<li>debounce</li>
+										<li>throttle</li>
+									</ul>
+								</li>
+								<li>Utils
+
+									<ul>
+										<li>share</li>
+										<li>do</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 232px; left: 480px; top: 140px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<p>&nbsp;</p>
+							<ul>
+								<li>Errors
+
+									<ul>
+										<li>retry</li>
+										<li>catch</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>using the library</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 800px; height: 300px; left: 80px; top: 178px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12; font-size: 150%;">
+							<pre class="javascript">
+                            <code>// good way
+import { Observable } from 'rxjs/Observable';
+import { Subject } from 'rxjs/Subject';
+import 'rxjs/add/operator/share';
+import 'rxjs/add/operator/do';
+
+
+// no
+import 'rxjs/Rx';</code></pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>example with retail poc</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 174px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<p>We needed to fetch a list of recommended products based the ones the user already bought</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 499px; height: 437px; left: 220px; top: 263px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<img style="" data-natural-width="1024" data-natural-height="896" data-src="https://files.slack.com/files-tmb/T02K8TEDF-F5CBB6TLJ-023c51e786/user_page_retail_poc_1024.png"
+							/>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 10;" dir="ui">
+							<h2>example with retail poc</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 174px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>We needed to fetch a list of recommended products based the ones the user already bought</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 403px; left: 80px; top: 314px;">
+						<div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="0">
+							<p>1. Fetch a list of products that the user already bought &nbsp;</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 342px; left: 544px; top: 334px;">
+						<div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="0">
+							<pre style="text-align: center;">/api/products</pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 403px; left: 80px; top: 524px;">
+						<div class="sl-block-content fragment" style="z-index: 14;" data-fragment-index="2">
+							<p>3. For each product name, get a recommendation&nbsp;</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 342px; left: 549px; top: 529px;">
+						<div class="sl-block-content fragment" style="z-index: 15; line-height: 0.78;" data-has-line-height="" data-fragment-index="2">
+							<pre style="text-align:center">
+                            <span style="font-size:0.5em">/api/recommendations/product1
+/api/recommendations/product2
+/api/recommendations/product3</span>
+                        </pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 403px; left: 80px; top: 418px;">
+						<div class="sl-block-content fragment" style="z-index: 16;" data-fragment-index="1">
+							<p>2. For each product ID, get its name and description</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 342px; left: 549px; top: 423px;">
+						<div class="sl-block-content fragment" style="z-index: 17; line-height: 0.78;" data-has-line-height="" data-fragment-index="1">
+							<pre style="text-align:center">
+                            <span style="font-size:0.5em">/api/products/1
+/api/products/2
+/api/products/3</span>
+                        </pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 180px; top: 84px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:1.4em">You could write it like this</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 960px; height: 562px; left: 0px; top: 148px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12; font-size: 75%;">
+							<pre class="javascript">
+                            <code>  loadProducts() {
+      this.productService.getProducts(this.ratingIds).subscribe((result) =&gt; {
+        this.ratings = result;
+        this.ratings.forEach((rating) =&gt; {
+            for (let trId in this.customer.topRatings) {
+                if (rating.id === trId) {
+                    rating.rating = this.customer.topRatings[trId];
+                }
+            }
+        });
+        //get recommendations for your top rated products
+        this.ratings.forEach((item) =&gt; {
+            this.productService.getRecommendations(item.name.replace(/[^\w\s]/gi, " "), item.category.toString().replace(/[^\w\s]/gi, " ")).subscribe((rec) =&gt; {
+                this.productService.getRatingsByProduct(rec.id).subscribe((productRatings) =&gt; {
+                    rec.userRatings = productRatings;
+                    this.recommendations.push(rec);
+                });
+            });
+        });
+
+        //get users who have liked your top rated products
+        this.ratings.forEach((item) =&gt; {
+            this.productService.getRatingsByProduct(item.id).subscribe((productRatings) =&gt; {
+                item.userRatings = productRatings;
+            })
+        });
+      });
+
+      
+    //get other users who have liked what you like
+    var topRatingIds = [];
+    for (let trId in this.customer.topRatings) {
+      topRatingIds.push(trId);
+    }
+    this.productService.getRatingsByProductList(topRatingIds).subscribe((ratingsResult) =&gt; {
+      for (let index in this.ratings) {
+        this.ratings[index].userRatings = ratingsResult[index];
+      }
+    });
+  }</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 160px; height: 166px; left: 735px; top: 367px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<img style="" data-natural-width="507" data-natural-height="527" data-src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c4bb.png"
+							/>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 700px; left: 143px; top: 70px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p>
+								<span style="font-size:1.4em">But with some refactoring with RxJS...</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 899px; height: 300px; left: 31px; top: 177px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12;">
+							<pre class="javascript">
+                            <code>private loadProducts() {
+    this.productService.getProducts(this.ratingIds)
+      .do(products =&gt; this.getUsersWhoRatedTopProducts(products))
+      .switchMap(products =&gt; Observable.from(products))
+      .flatMap(product =&gt; 
+            this.productService.getRecommendations(product.name, product.category)
+      .switchMap(productRecommendation =&gt; this.getRecommendationRatings(productRecommendation))
+      .subscribe(productRecommendation =&gt; this.recommendations.push(productRecommendation));
+  }</code></pre>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 114px; height: 114px; left: 743px; top: 343px;">
+						<div class="sl-block-content" style="z-index: 13;">
+							<img data-natural-width="600" data-natural-height="600" style="" data-src="http://cdn.shopify.com/s/files/1/1061/1924/products/100_Emoji_grande.png?v=1480481062"
+							/>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 864px; left: 30px; top: 58px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1>reactive forms</h1>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>traditional template forms</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 157px;">
+						<div class="sl-block-content" style="z-index: 12;">
+							<p>Define your bindings and events in the template</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 740px; height: 300px; left: 110px; top: 230px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 13;">
+							<pre class="xml">
+                            <code>    &lt;form (ngSubmit)="onSubmit()" #heroForm="ngForm"&gt;
+      &lt;div class="form-group"&gt;
+        &lt;label for="name"&gt;Name&lt;/label&gt;
+        &lt;input type="text" class="form-control" id="name"
+               required
+               [(ngModel)]="model.name" name="name"
+               #name="ngModel"&gt;
+        &lt;div [hidden]="name.valid || name.pristine"
+             class="alert alert-danger"&gt;
+          Name is required
+        &lt;/div&gt;
+      &lt;/div&gt;
+    ..............</code></pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>reactive (MODEL) forms</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 851px; height: 539px; left: 80px; top: 140px;">
+						<div class="sl-block-content" data-highlight-theme="zenburn" style="z-index: 12; font-size: 85%;">
+							<pre class="javascript">
+                            <code>export const heroes: Hero[] = [
+  {
+    id: 1,
+    name: 'Whirlwind',
+    address: [
+      {street: '123 Main',  city: 'Anywhere', state: 'CA',  zip: '94801'}
+    ],
+    power: 'Spawn a tornado'
+  }
+];
+.......
+export class HeroDetailComponent {
+  heroForm: FormGroup;
+  states = states;
+
+  constructor(private fb: FormBuilder) {
+    this.createForm();
+  }
+
+  createForm() {
+    this.heroForm = this.fb.group({ // &lt;-- the parent FormGroup
+      name: ['', Validators.required ],
+      address: this.fb.group({ // &lt;-- the child FormGroup
+        street: '',
+        city: '',
+        state: '',
+        zip: ''
+      }),
+      power: '',
+    });
+  }
+}
+</code></pre>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 90px;">
+						<div class="sl-block-content" style="z-index: 10;">
+							<p>
+								<span style="font-size:39.2px">Template-driven or model-driven (reactive) forms are both acceptable</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 160px; top: 264px;">
+						<div class="sl-block-content fragment" style="z-index: 11;" data-fragment-index="0">
+							<p style="text-align:left">In our experience, reactive driven forms and validators are easier to manage.</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 160px; top: 384px;">
+						<div class="sl-block-content fragment" style="z-index: 13;" data-fragment-index="0">
+							<p style="text-align:left">For simpler forms, template-driven should be used.</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 864px; left: 30px; top: 58px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1>ui frameworks</h1>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 70px; height: auto;">
+						<div class="sl-block-content" style="z-index: 11;" dir="ui">
+							<h2>what should we use for our projects?</h2>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 800px; left: 80px; top: 210px;">
+						<div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="0">
+							<p>
+								<span style="font-size:1.6em">Unfortunately, there is no good answer to this.</span>
+							</p>
+							<p>&nbsp;</p>
+							<p>Material, ng-bootstrap come to mind</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 167px; height: 147px; left: 682px; top: 468px;">
+						<div class="sl-block-content fragment fade-down" style="z-index: 13;" data-fragment-index="0">
+							<img data-natural-width="239" data-natural-height="211" style="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/693187/images/3750829/pasted-from-clipboard.png"
+							/>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 864px; left: 30px; top: 58px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1>miscellaneous</h1>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 80px; top: 115px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p style="text-align:left">
+								<span style="font-size:1.4em">Other tools to watch out for:</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 880px; left: 80px; top: 209px;">
+						<div class="sl-block-content" style="z-index: 12; text-align: left;">
+							<ul>
+								<li>Karma for running unit tests, Protractor and Cucumber for e2e testing</li>
+								<li>@angular/service-worker and @angular/app-shell for mobile-first PWAs</li>
+								<li>@angular/platform-server has been brought into core for server-side rendering</li>
+								<li>@angular/animations - for adding transitions to your components based on their state</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 864px; left: 30px; top: 58px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1>Wrap up</h1>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="text" style="height: auto; width: 600px; left: 78px; top: 115px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<p style="text-align: left;">
+								<span style="font-size:1.4em">We've learned:</span>
+							</p>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 880px; left: 78px; top: 210px;">
+						<div class="sl-block-content" style="z-index: 12; text-align: left;">
+							<ul>
+								<li>Use the CLI to scaffold projects and create components</li>
+								<li>Learned the differences and trade offs with smart vs. dumb components, service singletons, and Redux architectures
+
+									<ul>
+										<li>It's ok to use a mixture of all 3!</li>
+									</ul>
+								</li>
+								<li>The difference between ES6 Modules and Angular Modules</li>
+								<li>Lazy loading</li>
+								<li>Essential parts of RxJS and common pitfalls</li>
+								<li>The differences between template-driven and reactive forms</li>
+								<li>Lookout for Material</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section data-background-color="#666666">
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 360px; height: 240px; left: 80px; top: 90px;">
+						<div class="sl-block-content" style="z-index: 11;">
+							<img data-natural-width="352" data-natural-height="235" style="" data-src="https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif"
+							/>
+						</div>
+					</div>
+					<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 300px; height: 300px; left: 580px; top: 299px;">
+						<div class="sl-block-content fragment" style="z-index: 12;" data-fragment-index="0">
+							<img style="" data-natural-width="128" data-natural-height="128" data-src="http://cultofthepartyparrot.com/parrots/hd/parrot.gif"
+							/>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="sl-block" data-block-type="text" style="width: 760px; left: 100px; top: 287px; height: auto;">
+						<div class="sl-block-content" style="font-size: 200%; text-align: left; z-index: 10;">
+							<h1 style="text-align: center;">thank you!</h1>
+						</div>
+					</div>
+				</section>
 			</div>
 		</div>
+	</div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+
 </html>
